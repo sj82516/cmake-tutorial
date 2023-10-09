@@ -1,0 +1,3 @@
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build/CMakeFiles/mymathlib.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build/CMakeFiles/edit_cache.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build/CMakeFiles/rebuild_cache.dir

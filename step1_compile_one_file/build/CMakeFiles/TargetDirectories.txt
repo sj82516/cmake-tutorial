@@ -1,0 +1,7 @@
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/helloworld.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/edit_cache.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/rebuild_cache.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/list_install_components.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/install.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/install/local.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/step1_compile_one_file/build/CMakeFiles/install/strip.dir

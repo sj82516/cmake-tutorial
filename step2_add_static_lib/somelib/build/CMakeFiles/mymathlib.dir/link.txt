@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmymathlib.a CMakeFiles/mymathlib.dir/adder.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmymathlib.a
