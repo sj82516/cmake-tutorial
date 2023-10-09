@@ -222,6 +222,15 @@ helloworld_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 helloworld_SOURCE_DIR:STATIC=/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib
 
+//Value Computed by CMake
+mymathlib_BINARY_DIR:STATIC=/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/somelib
+
+//Value Computed by CMake
+mymathlib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mymathlib_SOURCE_DIR:STATIC=/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib
+
 
 ########################
 # INTERNAL cache entries
@@ -321,7 +330,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

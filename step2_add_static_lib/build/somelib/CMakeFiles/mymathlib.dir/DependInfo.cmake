@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/adder.cpp" "CMakeFiles/mymathlib.dir/adder.cpp.o" "gcc" "CMakeFiles/mymathlib.dir/adder.cpp.o.d"
+  "/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/adder.cpp" "somelib/CMakeFiles/mymathlib.dir/adder.cpp.o" "gcc" "somelib/CMakeFiles/mymathlib.dir/adder.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

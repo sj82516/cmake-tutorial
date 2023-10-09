@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib
+CMAKE_SOURCE_DIR = /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build
+CMAKE_BINARY_DIR = /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build/CMakeFiles /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/somelib/build/CMakeFiles 0
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/CMakeFiles /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/somelib//CMakeFiles/progress.marks
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 somelib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 somelib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,30 +103,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 somelib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 somelib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named mymathlib
+# Convenience name for target.
+somelib/CMakeFiles/mymathlib.dir/rule:
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 somelib/CMakeFiles/mymathlib.dir/rule
+.PHONY : somelib/CMakeFiles/mymathlib.dir/rule
 
-# Build rule for target.
-mymathlib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib
+# Convenience name for target.
+mymathlib: somelib/CMakeFiles/mymathlib.dir/rule
 .PHONY : mymathlib
 
 # fast build rule for target.
 mymathlib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymathlib.dir/build.make CMakeFiles/mymathlib.dir/build
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f somelib/CMakeFiles/mymathlib.dir/build.make somelib/CMakeFiles/mymathlib.dir/build
 .PHONY : mymathlib/fast
 
 adder.o: adder.cpp.o
@@ -134,7 +135,7 @@ adder.o: adder.cpp.o
 
 # target to build an object file
 adder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymathlib.dir/build.make CMakeFiles/mymathlib.dir/adder.cpp.o
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f somelib/CMakeFiles/mymathlib.dir/build.make somelib/CMakeFiles/mymathlib.dir/adder.cpp.o
 .PHONY : adder.cpp.o
 
 adder.i: adder.cpp.i
@@ -142,7 +143,7 @@ adder.i: adder.cpp.i
 
 # target to preprocess a source file
 adder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymathlib.dir/build.make CMakeFiles/mymathlib.dir/adder.cpp.i
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f somelib/CMakeFiles/mymathlib.dir/build.make somelib/CMakeFiles/mymathlib.dir/adder.cpp.i
 .PHONY : adder.cpp.i
 
 adder.s: adder.cpp.s
@@ -150,7 +151,7 @@ adder.s: adder.cpp.s
 
 # target to generate assembly for a file
 adder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymathlib.dir/build.make CMakeFiles/mymathlib.dir/adder.cpp.s
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(MAKE) $(MAKESILENT) -f somelib/CMakeFiles/mymathlib.dir/build.make somelib/CMakeFiles/mymathlib.dir/adder.cpp.s
 .PHONY : adder.cpp.s
 
 # Help Target
@@ -176,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -129,6 +129,19 @@ helloworld/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+#=============================================================================
+# Target rules for targets named mymathlib
+
+# Build rule for target.
+mymathlib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mymathlib
+.PHONY : mymathlib
+
+# fast build rule for target.
+mymathlib/fast:
+	$(MAKE) $(MAKESILENT) -f somelib/CMakeFiles/mymathlib.dir/build.make somelib/CMakeFiles/mymathlib.dir/build
+.PHONY : mymathlib/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +175,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
+	@echo "... mymathlib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

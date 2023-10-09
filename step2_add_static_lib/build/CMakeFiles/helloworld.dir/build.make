@@ -92,6 +92,7 @@ helloworld_EXTERNAL_OBJECTS =
 
 helloworld: CMakeFiles/helloworld.dir/main.cpp.o
 helloworld: CMakeFiles/helloworld.dir/build.make
+helloworld: somelib/libmymathlib.a
 helloworld: CMakeFiles/helloworld.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable helloworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/helloworld.dir/link.txt --verbose=$(VERBOSE)
