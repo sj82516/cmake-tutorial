@@ -1,6 +1,0 @@
-/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/CMakeFiles/helloworld.dir
-/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/CMakeFiles/edit_cache.dir
-/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/CMakeFiles/rebuild_cache.dir
-/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/somelib/CMakeFiles/mymathlib.dir
-/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/somelib/CMakeFiles/edit_cache.dir
-/Users/yuanchieh-at/Desktop/cmake_tutorial/step2_add_static_lib/build/somelib/CMakeFiles/rebuild_cache.dir
