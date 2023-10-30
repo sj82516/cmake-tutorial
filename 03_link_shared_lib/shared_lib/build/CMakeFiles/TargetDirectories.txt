@@ -1,0 +1,3 @@
+/Users/yuanchieh-at/Desktop/cmake_tutorial/03_link_shared_lib/shared_lib/build/CMakeFiles/MyMath.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/03_link_shared_lib/shared_lib/build/CMakeFiles/edit_cache.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/03_link_shared_lib/shared_lib/build/CMakeFiles/rebuild_cache.dir

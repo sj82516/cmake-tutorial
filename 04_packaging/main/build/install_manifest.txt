@@ -1,0 +1,2 @@
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/_CPack_Packages/Darwin/TGZ/hello_cpack_file/bin/Main
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/_CPack_Packages/Darwin/TGZ/hello_cpack_file/lib/libMyMath.dylib

@@ -1,0 +1,9 @@
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/Main.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/package.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/package_source.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/edit_cache.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/rebuild_cache.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/list_install_components.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/install.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/install/local.dir
+/Users/yuanchieh-at/Desktop/cmake_tutorial/04_packaging/main/build/CMakeFiles/install/strip.dir
